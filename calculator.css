@@ -1,0 +1,46 @@
+#calculator{
+    border: 1px solid rgb(7, 20, 20);
+    border-radius: 9px;
+    width: 200px;
+    background-color: rgb(107, 93, 93);  
+    height: 400px;
+    margin-top: 50px;
+
+}
+
+body{
+    background-image: url('https://img.pikbest.com/backgrounds/20190730/calculation-of-various-digital-information-background-v_1517337jpg!f305cw') ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display{
+    margin: 10px;
+    width: 85%;
+    font: size 25px;
+    height: 30px;
+}
+
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 50 black solid;
+    font-size: large;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.button:hover{
+    background-color: #747c78;
+}
+
+.button-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #bac2ab;
+        
+}
